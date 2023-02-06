@@ -16,7 +16,7 @@ Start in the <dtitle>FIRST FLOOR POWER</dtitle> floor plan.
 3. Make the following changes to the family:
    1. In the <dtitle>Family Settings</dtitle> section, set <dfield>Device Type</dfield> to <value>Branch circuit device: Equipment connection</value>.
    2. Set <tfield>MOCP</tfield> to <value>40</value>.
-   3. Set <dfield>OCP Trip</dfield> to <value>Motor-compressor, `<=` MOCP</value>.
+   3. Set <dfield>OCP Trip</dfield> to <value>Motor-compressor, <= MOCP</value>.
    4. Set <dfield>Conductor</dfield> to <value>Size based upon loads</value>.
 4. Press the <button>OK</button> button to close the dialog box.
 5. Run the Revit <acommand>Create / DM Electrical→ ![](img/revit--load-project.png) Load into Project / ![](img/revit--load-project-close.png) Load into Project and Close</acommand> command to update the family and its parameter values in the project.  
